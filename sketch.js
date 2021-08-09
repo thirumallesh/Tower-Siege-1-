@@ -142,7 +142,7 @@ function draw() {
 }
 
 function mouseDragged(){
-  Matter.Body.setPosition(this.ball,{x:mouseX,y:mouseY});
+  Matter.Body.setPosition(this.polygon,{x:mouseX,y:mouseY});
 }
 
 function mouseReleased(){
